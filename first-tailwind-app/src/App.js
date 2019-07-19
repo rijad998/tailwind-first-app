@@ -1,11 +1,13 @@
 import React from 'react';
 import './App.css';
-import Header from './components/Header'
+import HeaderBackground from './components/HeaderBackground'
+import MainSection from './components/MainSection';
 
 function App() {
   return (
     <div className="App">
-      <Header />
+      <HeaderBackground />
+      <MainSection />
     </div>
   );
 }
