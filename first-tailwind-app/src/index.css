@@ -670,33 +670,49 @@ video {
   top: -40px;
 }
 
-.Card {
+.CardTab {
   display: inline-block;
   width: 25%;
   background-color: #ffffff;
   height: 150px;
 }
 
-.Card:hover {
+.CardTab:hover {
   background-color: #24ac5c;
 }
 
-.Card h3 {
+.CardTab h3 {
   color: #48bb78;
 }
 
-.Card:hover h3 {
+.CardTab:hover h3 {
   color: #ffffff;
 }
 
-.Card p {
+.CardTab p {
   color: #a1aebe;
 }
 
-.Card:hover p {
+.CardTab:hover p {
   color: #d5d9df;
 }
 
+.Card {
+  background-color: #ffffff;
+  width: 31%;
+  height: 300px;
+}
+
+.CardImg {
+  background-image: url("./components/images/city.jpg");
+  background-size: cover;
+  height: 80%;
+}
+
+.CardImg h2,h4 {
+  font-weight: 700;
+  color: #ffffff;
+}
 /* ---------------------------------------------------------------------------------------------------------------------------- */
 /* ---------------------------------------------------------------------------------------------------------------------------- */
 /* ---------------------------------------------------------------------------------------------------------------------------- */
