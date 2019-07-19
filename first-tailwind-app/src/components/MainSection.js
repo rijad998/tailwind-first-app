@@ -4,7 +4,7 @@ import Pills from './Pills';
 class MainSection extends Component {
     render() {
         return (
-            <div className="MainContent">
+            <div className="MainContent flex justify-center">
                 <Pills />
             </div>
         )
