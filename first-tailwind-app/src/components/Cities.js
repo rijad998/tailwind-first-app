@@ -1,5 +1,4 @@
 import React, {Component} from 'react'
-import city from './images/city.jpg'
 
 class Cities extends Component {
     render() {
