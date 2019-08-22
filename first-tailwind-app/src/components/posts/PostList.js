@@ -1,7 +1,11 @@
 import React, {Component} from 'react';
 import PostData from '../data/posts.json'
 
+/* ----------------- */
+/* ----------------- */
 /* testna komponenta */
+/* ----------------- */
+/* ----------------- */
 
 class PostList extends Component {
     render() {

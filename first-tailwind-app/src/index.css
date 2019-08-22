@@ -703,8 +703,19 @@ video {
 
 .Card {
   background-color: #ffffff;
-  width: 31%;
   height: 300px;
+  flex-basis: 20%;
+  min-width: 300px;
+  position: relative;
+  padding: 10px;
+  box-sizing: border-box;
+  box-shadow: 0 30px 20px rgba(0,0,0,0.19);
+}
+
+.grid-row {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
 }
 
 .CardImg {
