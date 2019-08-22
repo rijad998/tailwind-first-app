@@ -1,4 +1,5 @@
 import React, {Component} from 'react'
+import PostData from './data/posts.json'
 
 class Cities extends Component {
     render() {
@@ -14,6 +15,7 @@ class Cities extends Component {
                         <p>Additional info</p>
                     </div>
                 </div>
+                
                 <div className="Card flex flex-col justify-center">
                     <div className = "CardImg">
                         <h2 className="text-2xl align-middle">Chiang Mai</h2>
@@ -34,6 +36,7 @@ class Cities extends Component {
                         <p>Additional info</p>
                     </div>
                 </div>
+                
             </div>
         )
     }

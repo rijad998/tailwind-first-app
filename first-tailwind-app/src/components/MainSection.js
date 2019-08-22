@@ -1,7 +1,6 @@
 import React, {Component} from 'react'
 import Pills from './Pills';
 import Cities from './Cities';
-import PostList from './posts/PostList';
 
 class MainSection extends Component {
     render() {
@@ -9,7 +8,6 @@ class MainSection extends Component {
             <div className="MainContent flex justify-center">
                 <Pills />
                 <Cities />
-                <PostList />
             </div>
         )
     }
